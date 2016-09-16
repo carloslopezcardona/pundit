@@ -1,0 +1,610 @@
+
+
+* { 
+	margin: 0;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+} 
+
+
+.mtb h2{
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+    margin-left: -6%;
+    text-transform: uppercase;
+}
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+    font-family: 'Arial Narrow';
+	font-weight: 300;
+	font-size: 16px; 
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #666; 
+	margin-top: 10px; 
+}
+h3{
+    font-size: 1em;
+    color: rgb(73, 182, 138);
+    
+}
+
+html,
+body {
+	height: 100%;background-color: white;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.mtb {margin-top: 50px; margin-bottom: 50px;}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+}
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #1abc9c;
+}
+a:hover,
+a:focus {
+    color:rgb(73, 182, 138);
+    
+}
+
+.nopadding {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+#etapas {
+    width: 100%;
+    
+}
+
+#etapas li{
+    width: 100%;
+}
+
+#felicidades{
+    width: 100%;
+    height:100%;
+    margin-top:75px;
+    background-color: white;
+}
+
+#mensaje{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#mensaje h2{
+    color: rgb(73, 182, 138);
+    font-size: 1.5em;
+    
+}
+
+#mensaje p{
+    color: rgb(73, 182, 138);
+    font-size: 1em;
+    
+}
+
+#imagen{
+    width: 100%;
+    margin-top: 23% ;   
+        text-align: center;
+}
+
+#imagen img {
+    width: 50%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#perfil{
+    margin-top: 25.5%;
+    height: auto%;
+    background-color: white;
+}
+
+#form{
+    height: auto;
+    margin-top: 5%;
+    padding-top: 30px;
+    background-color: ;
+    
+}
+
+#form p{
+    
+    color: rgb(73, 182, 138);
+    font-weight: 700;
+    
+}
+.titulo{
+    background-color: rgb(73, 182, 138);
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+#foto img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+
+
+#info    
+{
+    background-color:white;
+    height: auto;
+    margin-top: 3%;
+}
+
+#habilidades    
+{
+    background-color:white;
+    height: auto;
+    margin-top: 3%;
+}
+#habilidades h2{
+    font-size: 15px;
+    background-color: rgb(73, 182, 138);
+    color: white;
+    vertical-align: middle;
+    padding: 2%;
+    
+}
+#frame{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+
+
+
+/*  Moviles en horizontal o tablets en vertical*/
+
+@media (min-width: 768px) { 
+
+    #perfil{
+    margin-top: 75px;
+         height: 650px;
+    background-color: white;
+}
+    #form{
+    height: auto;
+    margin-top: 3%;
+    padding-top: 30px;
+        padding-bottom: 30px;
+    background-color: white;
+    
+}
+    
+    #etapas {
+    width: 100%;
+    
+    
+}
+
+#etapas li{
+    width: 19.5%;
+}
+    
+    #info    
+{
+    width: 59%;
+    background-color:white;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+    
+}
+    #habilidades{
+        
+        width: 100%;
+    }
+    
+    #nombre{
+        border-color: rgb(73, 182, 138);
+    }
+    
+    .titulo{
+    background-color: rgb(73, 182, 138);
+    color: white;
+    font-size: 30px;
+        width: 80%;
+margin-left: 10%;    
+        border-radius: 4px;
+        margin-top: %
+}
+    
+    #foto{
+    margin-left: 50px;
+}
+    
+    
+    #felicidades{
+    width: 100%;
+    height: 100%;
+    margin-top:0px;
+    background-color: white;
+}
+    
+#mensaje{
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#mensaje h2{
+    color: rgb(73, 182, 138);
+    font-size: 3em;
+    
+}
+
+#mensaje p{
+    color: rgb(73, 182, 138);
+    font-size: 1.5em;
+    
+}
+
+#imagen{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#imagen img {
+    width: 20%;
+    margin-top: 8%;
+    
+}
+}
+
+/* FORM CONFIGURATION */
+
+input {
+	font-size: 16px;
+	min-height: 40px;
+	line-height: 20px;
+	padding: 15px 30px 16px;
+	border: 1px solid #b9b9af;
+	
+	background-color: #fff;
+	opacity: 0.9;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.subscribe-input {
+	float: left;
+	width: 70%;
+	text-align: left;
+	margin-right: 2px;
+}
+
+@media screen and (max-width: 767px) {
+	.subscribe-input {
+		width: 100%;
+	}
+}
+
+.subscribe-submit {
+	right: 0;
+}
+
+.btn-download {
+	background: #FDE3A7;
+}
+
+/*Buttons Configuration */
+.btn-conf {
+	margin-right: 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 18px 28px 17px 28px;
+	}
+
+.btn-conf-2 {
+	margin-right: 15px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 12px 0px 11px 28px;
+	margin-top: 20px;
+	}	
+
+.btn-green {
+	font-weight: 900;
+    background: #03C9A9;
+	color: white;
+    
+}
+
+/* HEADER SECTION */
+
+
+#h .logo {
+	top: 30px;
+	left: 45px;
+	font-size: 18px;
+	font-weight: 900;
+	position:absolute; 
+}
+
+#h .social {
+	top: 30px;
+	right: 45px;
+	font-size: 20px;
+	position: absolute;
+}
+
+#h .social i {
+	margin-left: 20px;
+}
+
+#h .social a {
+	color: white;
+}
+
+#h h1 {
+	font-weight: 700;
+	color: white;
+	font-size: 40px;
+}
+
+/* porque section*/
+#porque {
+	background-color: rgb(51, 204, 153);
+    margin-top:-20px;
+}
+
+#porque  h3{
+    padding: 20px;
+	font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    
+}
+
+#porque p{
+    padding: 25px;
+	font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: inherit;
+    
+}
+
+.categorias{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+.catalogo{
+    padding: 20px;
+    margin-top: 300px; 
+   
+   
+}
+
+.info{
+   background-color: rgb(51, 204, 153);
+    margin-top: -20px;
+    height: 40px;
+}
+
+.info h3{
+   color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    padding-top: 10px;
+    
+    
+}
+
+#banner{
+    margin-top: 75px;
+}
+.curso{
+ cursor: pointer;
+}
+
+.categorias h2{
+    font-size: 20px;
+   font-family: 'Arial Narrow';
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+        
+}
+
+.categorias h4{
+    font-size: 13px;
+   font-family: 'Arial Narrow';
+    font-weight: 200;
+    text-align: left;
+    text-transform: uppercase;
+        
+}
+
+.btn-ver{
+    margin-top: 10px;
+    width: 100%;
+    background-color:rgb(51,204,153);
+    font-size: 30px;
+    color: white;
+	margin-right: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    font-family:sans-serif;
+}
+
+.btn-ver:hover{
+    color: green;
+    font-weight: 700;
+    
+}
+
+/* GREEN SECTION - TESTIMONIAL */
+
+video{
+    margin-top:-16%;
+    z-index: -100;
+}
+
+
+    
+    
+}
+
+#green {
+	padding-top: 90px;
+	padding-bottom: 60px;
+	min-height: 300px;
+	background: #03C9A9;
+	color: white;
+}
+
+#green tgr {
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+/* FOOTER */
+#footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: rgb(73, 182, 138);
+    height: 200px;
+	color: white;
+}
+
+.btnlog{
+    background-color:  rgb(73, 182, 138);
+    text-transform: uppercase;
+    color: white;
+}
+
+.btnlog:hover{
+    background-color:  white;
+    color:rgb(73, 182, 138);
+    border: solid 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#medios h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(73, 182, 138);
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+
+@media screen and (max-width:500px) {
+  video {
+    display: none;
+    
+    }
+    
+    #btns{
+        display: none;
+    }
+    
+    #porque {
+	background-color:rgb(51, 204, 153);
+    margin-top:400px;
+        
+}
+    .catalogo{
+    background-color: white;
+    margin-top:-10px;
+    padding: 20px;
+                
+}
+    .mtb {margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 15%;
+    text-align: center;
+        font-size: 10px;
+       
+        
+    }
+    
+    
+    .mtb h2{
+        font-size: 38px;
+        color: rgb(73, 182, 138);
+    }
+    body{
+         background-color: white;
+    }
+    input {
+	font-size: 12px;
+	min-height: 40px;
+	line-height: 20px;
+	padding: 15px 30px 16px;
+	border: 1px solid #b9b9af;
+	
+	background-color: #fff;
+	opacity: 0.9;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+}
+
